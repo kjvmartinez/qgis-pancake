@@ -1,4 +1,5 @@
 # Adding Layers
 
-![](gifs/01 protected areas.gif)
+### Adding vector data
 
+![](https://github.com/kjvmartinez/qgis-pancake/blob/master/gifs/01%20protected%20areas.gif)
