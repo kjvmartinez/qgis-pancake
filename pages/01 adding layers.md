@@ -1,6 +1,9 @@
 # Adding Layers to your Map
 
+We will start the application, and create a basic map to use for examples and exercises.
+
 ## Adding vector data
+
 
 ![](https://github.com/kjvmartinez/qgis-pancake/blob/master/gifs/01%20protected%20areas.gif)
 
@@ -18,5 +21,11 @@ Repeat the steps above to add the places.shp and rivers.shp layers from the same
 Try yourself 1.02
 
 Load the following datasets from the exercise_data folder into your map using any of the methods above:  
-* buildings
-* water
+* buildings (taken from training_data.gpkg)
+* water (taken from exercise_data/shapefile)
+
+## Reordering the Layers
+
+The order in which the layers have been loaded into the map is probably not logical at this stage. It’s possible that the road layer is completely hidden because other layers are on top of it.
+
+
