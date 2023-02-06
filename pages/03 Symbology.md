@@ -7,6 +7,7 @@ Let’s begin by changing the color of the landuse layer.
 ![](https://github.com/kjvmartinez/qgis-pancake/blob/master/gifs/08%20Changing%20Colors.gif)
 
 **Try yourself 03.01**
+
 Change the color of the water layer to light blue.
 
 ![](https://github.com/kjvmartinez/qgis-pancake/blob/master/gifs/09%20Changing%20Symbol%20Structure.gif)
