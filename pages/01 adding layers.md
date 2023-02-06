@@ -4,7 +4,7 @@
 
 ![](https://github.com/kjvmartinez/qgis-pancake/blob/master/gifs/01%20protected%20areas.gif)
 
-Try yourself 1.01
+<span style="color: pink;">Try yourself 1.01</span>
 
 Repeat the steps above to add the places.shp and rivers.shp layers from the same folder
 (exercise_data/shapefile) to the map.
