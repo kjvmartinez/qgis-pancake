@@ -48,10 +48,16 @@ Customize your buildings layer as you like, but remember that it has to be easy 
 When symbol layers are rendered, they are also rendered in a sequence, similar to the way the different map layers
 are rendered. This means that in some cases, having many symbol layers in one symbol can cause unexpected results.
 
-![13]()
+![](https://github.com/kjvmartinez/qgis-pancake/blob/master/gifs/13%20Ordering%20Symbol%20Levels.gif)
+
+Well, roads have now a street like symbology, but you see that lines are overlapping each others at each cross. To prevent this from happening, you can sort the symbol levels and thereby control the order in which the different
+symbol layers are rendered.
+
+![](https://github.com/kjvmartinez/qgis-pancake/blob/master/gifs/14%20Ordering%20Symbol%20Levels.gif)
+
 
 **Try yourself 3.04**
 
 Change the appearance of the roads layer again. Make the roads narrow and yellow, with a thin, pale gray outline and a thin black line in the middle.
 
-![ty3.04]()
+![ty3.04](https://github.com/kjvmartinez/qgis-pancake/blob/master/imgs/03-04.png)
