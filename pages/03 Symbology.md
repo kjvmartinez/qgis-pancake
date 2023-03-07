@@ -61,3 +61,35 @@ symbol layers are rendered.
 Change the appearance of the roads layer again. Make the roads narrow and yellow, with a thin, pale gray outline and a thin black line in the middle.
 
 ![ty3.04](https://github.com/kjvmartinez/qgis-pancake/blob/master/imgs/03-04.png)
+
+## Applying Style file to the Layer
+
+![](https://github.com/kjvmartinez/qgis-pancake/blob/master/gifs/15%20multiple%20layers.gif)
+
+# Symbol layer types
+
+In addition to setting fill colors and using predefined patterns, you can use different symbol layer types entirely. The only type we’ve been using up to now was the Simple Fill type. The more advanced symbol layer types allow you to customize your symbols even further.  
+Each type of vector (point, line and polygon) has its own set of symbol layer types. First we will look at the types available for points.
+
+
+## Point Symbol Layer Types
+
+![](https://github.com/kjvmartinez/qgis-pancake/blob/master/gifs/16%20point%20symbol%20layer%20types.gif)
+
+## Polygon Symbol Layer Types
+
+![](https://github.com/kjvmartinez/qgis-pancake/blob/master/gifs/17%20polygon%20symbol%20layer%20types.gif)
+
+As a result, you have a textured symbol for the water layer, with the added benefit that you can change the size, shape and distance of the individual dots that make up the texture.  
+
+## Geometry generator symbology
+
+You can use the Geometry generator symbology with all layer types (points, lines and polygons). The resulting symbol depends directly on the layer type.  
+
+Very briefly, the Geometry generator symbology allows you to run some spatial operations within the symbology
+itself. For example you can run a real centroid spatial operation on a polygon layer without creating a point layer.  
+
+Moreover, you have all the styling options to change the appearance of the resulting symbol.  
+
+![](https://github.com/kjvmartinez/qgis-pancake/blob/master/gifs/18%20geometry%20generator%20symbology.gif)
+
